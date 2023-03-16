@@ -1,0 +1,21 @@
+#footer {
+	align-items: center;
+	color: white;
+	text-align: center;
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.list-inline a {
+	font-size: 40px;
+	color: white;
+}
+
+.list-inline a :hover {
+	color: lightgrey;
+	transition: 1s;
+}

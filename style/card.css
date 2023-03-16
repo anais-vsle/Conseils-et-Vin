@@ -1,0 +1,41 @@
+.card-green	{
+	background-color: lightgreen;
+	border-radius: 1px;
+	text-align: center;
+	padding: 16px;
+	height: 50vh;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card-grey	{
+	background-color: lightgrey;
+	border-radius: 1px;
+	text-align: center;
+	padding: 16px;
+	height: 50vh;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card-blue	{
+	background-color: lightblue;
+	border-radius: 1px;
+	text-align: center;
+	padding: 16px;
+	height: 50vh;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card {
+	display: grid;
+	grid-template-columns: 1fr;
+	
+}

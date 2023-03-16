@@ -1,0 +1,28 @@
+@import	"banner.css";
+@import	"logo.css";
+@import	"paragraph.css";
+@import	"card.css";
+@import	"icon.css";
+@import	"vignoble2.css";
+@import	"footer.css";
+@import	"menu.css";
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+body	{
+	background: black;
+	font-family: mukta, sans-serif;
+}
+
+h1	{
+	word-spacing: 0.5em;
+	letter-spacing: 0em;
+}
+
+@media	(min-width: 576px) {
+	.card	{grid-template-columns: 1fr;}
+}
+
+@media	(min-width: 768px) {
+	.card	{grid-template-columns: 1fr 1fr 1fr;}
+}
+
